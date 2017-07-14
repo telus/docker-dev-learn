@@ -1,0 +1,6 @@
+kind: ImageStream
+apiVersion: v1
+metadata:
+  name: dev-learn
+  labels:
+    app: dev-learn

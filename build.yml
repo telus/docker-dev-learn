@@ -1,0 +1,22 @@
+kind: BuildConfig
+apiVersion: v1
+metadata:
+  name: dev-learn
+  labels:
+    app: dev-learn
+spec:
+  source:
+    type: Git
+    git:
+      uri: https://github.com/telusdigital/docker-dev-learn.git
+      ref: 3.openshift-build
+    runPolicy: Parallel
+  strategy:
+    type: Docker
+    dockerStrategy:
+      dockerfilePath: Dockerfile
+      forcePull: true
+  output:
+    to:
+      kind: ImageStreamTag
+      name: dev-learn:latest
