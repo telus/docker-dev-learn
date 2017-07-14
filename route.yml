@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: dev-learn
+spec:
+  to:
+    kind: Service
+    name: dev-learn
+    weight: 100
+  port:
+    targetPort: 3000
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
