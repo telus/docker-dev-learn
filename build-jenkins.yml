@@ -9,7 +9,7 @@ spec:
     type: Git
     git:
       uri: https://github.com/telusdigital/docker-dev-learn.git
-      ref: 6.openshift-jenkins
+      ref: 7.delivery-pipeline
   triggers:
     - type: GitHub
       github:

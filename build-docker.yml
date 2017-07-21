@@ -9,7 +9,7 @@ spec:
     type: Git
     git:
       uri: https://github.com/telusdigital/docker-dev-learn.git
-      ref: 3.openshift-build
+      ref: 7.delivery-pipeline
     runPolicy: Parallel
   strategy:
     type: Docker
