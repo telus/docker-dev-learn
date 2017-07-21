@@ -1,4 +1,8 @@
-This repo will teach you how to get up and running with Docker and OpenShift. [Accompanying slides](https://docs.google.com/a/telus.com/presentation/d/1HfBpbzbVf5ExpG4wRWG2IhYqvNLXGBO7qbWy81Pdy4o/edit?usp=sharing).
+This repo will teach you how to get up and running with Docker and OpenShift. 
+
+*Accompanying slides*
+- [Week 1](https://docs.google.com/a/telus.com/presentation/d/1HfBpbzbVf5ExpG4wRWG2IhYqvNLXGBO7qbWy81Pdy4o/edit?usp=sharing)
+- [Week 2](https://docs.google.com/a/telus.com/presentation/d/1bP56RKUeJt_xxH6vyT5aATz_knx-FQGcYJAhuqurNXg/edit?usp=sharing)
 
 To get started, you will need to [install Docker](https://docs.docker.com/engine/installation/#supported-platforms). You'll also need to install the openshift command line tools, and Node.js:
 ```
