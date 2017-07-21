@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: BuildConfig
+metadata:
+  name: dev-learn-pipeline
+  labels:
+    app: dev-learn
+spec:
+  source:
+    type: Git
+    git:
+      uri: https://github.com/telusdigital/docker-dev-learn.git
+      ref: 6.openshift-jenkins
+  triggers:
+    - type: GitHub
+      github:
+        secret: iddqd
+  runPolicy: Serial
+  strategy:
+    type: JenkinsPipeline
+    jenkinsPipelineStrategy:
+      jenkinsfilePath: Jenkinsfile
