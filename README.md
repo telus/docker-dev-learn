@@ -13,3 +13,5 @@ node server.js
 ```
 
 Then hit `http://localhost:3000`.
+
+**NAVIGATE THE BRANCHES TO SEE THE FOLLOWING STEPS**
